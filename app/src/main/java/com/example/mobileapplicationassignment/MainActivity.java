@@ -34,4 +34,9 @@ public class MainActivity extends AppCompatActivity {
         TextView tvMain = findViewById(R.id.tvMain);
         tvMain.setTextColor(Color.RED);
     }
+
+    public void changeBackground(View view) {
+        View mainView = findViewById(R.id.main);
+        mainView.setBackgroundColor(Color.GREEN);
+    }
 }
